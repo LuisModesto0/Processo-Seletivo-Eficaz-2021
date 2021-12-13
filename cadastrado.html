@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Eficaz</title>
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <img src="imagem/eficaz_logo_black.png" class="logo" onclick="location.href = 'index.html';"/>
+    <ul>
+    </ul>
+  </nav>
+
+  <div class="nav-div-button buttonRegister">
+    <button class="nav-button-cadastrar nav-button-register" type="submit">
+      <img src="icons/user.svg" class="icons"/>
+      Cadastro
+    </button>
+
+    <div class="nav-div-button buttonList">
+      <button onclick="location.href = 'listacadastrado.html';" class="nav-button nav-button-list" type="submit">
+        <img src="icons/users.svg" class="icons" />
+        Lista de Cadastrados
+      </button>
+    </div>
+
+  </div>
+
+  <form>
+    <h1 class="title">Cadastro</h1>
+    <div class="textBox text-start textBox-one">
+      <label for="email">E-mail pessoal do candidato</label>
+      <input required type="email" id="email_pessoal" placeholder="seuemail@eficaz.com" />
+    </div>
+    <div class="textBox textBox-two">
+      <label for="msg">Nome Completo </label>
+      <input  required type="text" id="nome"/>
+    </div>
+    <div class="textBox text-start textBox-three">
+      <label for="mail">Email</label>
+      <input required type="mail" id="email" placeholder="exemplo@exemplar.com" />
+    </div>
+    <div class="textBox textBox-four">
+      <label for="msg">Telefone (DDD)</label>
+      <input required type="number" id="telefone" placeholder="(99) 9999-9999" />
+    </div>
+    <div class="textBox text-start textBox-five">
+      <label for="msg">Rua</label>
+      <input required type="text" id="rua"/>
+    </div>
+    <div class="textBox textBox-six">
+      <label for="msg">N°</label>
+      <input required type="text" id="numero"/>
+    </div>
+    <div class="textBox text-start textBox-seven">
+      <label for="msg">Complemento</label>
+      <input type="text" id="complemento" />
+    </div>
+    <div class="textBox textBox-eight">
+      <label for="msg">Bairro</label>
+      <input type="text" id="bairro" placeholder=""/>
+    </div>
+    <div class="textBox text-start textBox-nine">
+      <label for="msg">CEP</label>
+      <input type="number" id="cep" placeholder="00000-000"/>
+    </div>
+    <div class="textBox textBox-ten">
+      <label class="city-label" for="msg">Cidade</label>
+      <input class="city-input" type="text" id="cidade" />
+    </div>
+    <div class="textBox text-start textBox-eleven">
+      <label class="final-label" for="msg">UF</label>
+      <input class="final-input" type="text" id="uf" placeholder="Exemplo: &quot;SP&quot;  "/>
+    </div>
+
+    <div class="final-button">
+    <button type="button" onclick="cadastrar()" class="button-final-Register">Cadastrar</button>
+    </div>
+
+  </form>
+  <script src="js/cadastrar.js"></script>
+</body>
+
+</html>

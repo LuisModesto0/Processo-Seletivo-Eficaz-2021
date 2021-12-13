@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@100&family=Source+Sans+Pro:ital,wght@0,900;1,900&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    background-color: rgb(235, 235, 235);
+}
+
+.navbar {
+    display: block;
+    margin-left: 120px; 
+
+}
+
+.logo{
+    padding-top: 2%;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+button{
+    font-size: 12pt;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 4px;
+    color: #fff;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.11);
+}
+
+.nav-div-button {
+    display: inline-block;
+    width: 380px;
+}
+
+.nav-button-list {
+    align-items: flex-end ;
+
+}
+
+.icons {
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+
+ .nav-button{
+
+  margin-left: 120px;
+  background-color: #38d3ee;
+  width: 250px;
+  height: 50px;
+  text-align: start;
+  margin-bottom: 8px;
+  transition: 0.3s;
+
+}
+
+.nav-button:hover {
+    background-color:#30b2c9;
+    margin-left: 115px;
+
+}
+
+
+#wrapper, #menu {
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+#menu {
+    padding-top: 1% !important;
+    width: 20%;
+    position: fixed;
+}
+
+.nav-link {
+    background-color: #56CCF2;
+    margin: 1%;
+    border: 0px;
+    width: -webkit-fill-available;
+    text-align: left;
+    color: white;
+    font-size: 12pt;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.11);
+    
+}
+
+.content {
+    margin-left: 21%;
+    margin-right: 2%;
+    margin-top: -135px;
+    padding-top: 1% !important;
+}
+
+.card-body {
+    padding-top: 1.25em !important;
+    padding-bottom: 1.25em !important;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.card-title {
+    padding-left: 0.60em;
+}
+
+.table > thead {
+    background-color: #e0e0e0;
+}
+
+.btEditar, .btExcluir {
+    margin: 0.10em;
+    width: -webkit-fill-available;
+}
+
+.icons {
+    filter: invert(100%);
+  }
+  
